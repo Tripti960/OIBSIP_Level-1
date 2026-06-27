@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verdana — Rare Plants, Delivered</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <a href="#" class="logo">
+    <svg class="logo-leaf" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11 20C11 20 3 14 3 8C3 4.686 6.686 2 11 2C15.314 2 19 4.686 19 8C19 14 11 20 11 20Z"
+            stroke="#A8C5A0" stroke-width="1.4" fill="rgba(168,197,160,0.12)"/>
+      <path d="M11 20V10M11 10C11 10 7 7 7 4M11 10C11 10 15 7 15 4"
+            stroke="#A8C5A0" stroke-width="1.2" stroke-linecap="round"/>
+    </svg>
+    Verdana
+  </a>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#features">Shop</a></li>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#" class="nav-btn">Order Now</a></li>
+  </ul>
+
+  <div class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="home">
+
+  <svg class="hero-bg-svg" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <g stroke="#A8C5A0" stroke-width="1" fill="none">
+      <path d="M80 800 Q100 650 120 500"/>
+      <path d="M120 500 Q60 460 30 400"/><path d="M115 520 Q55 470 20 430"/>
+      <path d="M118 540 Q80 510 60 470"/><path d="M120 500 Q160 450 180 390"/>
+      <path d="M116 518 Q155 465 172 405"/><path d="M112 535 Q140 510 155 475"/>
+      <path d="M110 555 Q130 535 140 508"/>
+      <ellipse cx="1300" cy="120" rx="80" ry="40" transform="rotate(-25 1300 120)"/>
+      <ellipse cx="1350" cy="90"  rx="60" ry="28" transform="rotate(15 1350 90)"/>
+      <ellipse cx="1260" cy="150" rx="55" ry="25" transform="rotate(-45 1260 150)"/>
+      <path d="M1300 120 L1310 180"/><path d="M1350 90 L1340 180"/><path d="M1260 150 L1300 180"/>
+      <path d="M1305 180 Q1300 280 1295 350"/>
+      <path d="M720 50 Q740 150 730 260"/>
+      <path d="M730 180 Q780 160 820 120"/><path d="M728 200 Q775 185 812 148"/>
+      <path d="M730 210 Q680 190 640 150"/><path d="M728 228 Q675 205 638 168"/>
+      <ellipse cx="400" cy="200" rx="35" ry="18" transform="rotate(20 400 200)"/>
+      <ellipse cx="950" cy="700" rx="45" ry="22" transform="rotate(-30 950 700)"/>
+      <ellipse cx="200" cy="350" rx="28" ry="14" transform="rotate(40 200 350)"/>
+      <ellipse cx="1100" cy="400" rx="38" ry="19" transform="rotate(-15 1100 400)"/>
+      <path d="M400 218 Q410 280 405 340"/>
+      <path d="M950 722 Q940 780 945 840"/>
+      <circle cx="500" cy="600" r="5"/><circle cx="514" cy="590" r="4"/>
+      <circle cx="508" cy="612" r="3"/><path d="M506 615 Q502 640 500 660"/>
+      <circle cx="850" cy="300" r="5"/><circle cx="864" cy="290" r="4"/>
+      <path d="M856 308 Q852 332 850 355"/>
+    </g>
+  </svg>
+
+  <div class="hero-glow"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">Free delivery on first order</div>
+      <h1>Rare plants,<br><em>grown with</em><br>intention</h1>
+      <p class="hero-sub">We source uncommon species directly from small nurseries and deliver them — healthy, wrapped, and ready to thrive — to your door within 48 hours.</p>
+      <div class="hero-actions">
+        <a href="#features" class="btn-terra">
+          Browse collection
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#about" class="btn-ghost">
+          Our story
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M2 7h10M8 4l3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><span class="n">240+</span><span class="l">Rare species</span></div>
+        <div class="hero-stat"><span class="n">98%</span><span class="l">Arrive alive</span></div>
+        <div class="hero-stat"><span class="n">12k</span><span class="l">Happy growers</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="plant-frame">
+        <svg class="plant-svg" viewBox="0 0 300 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M110 330 L90 370 L210 370 L190 330 Z" fill="#3D4A3E" stroke="#5A6B5C" stroke-width="1.5"/>
+          <ellipse cx="150" cy="330" rx="40" ry="10" fill="#4A5C4C" stroke="#5A6B5C" stroke-width="1.5"/>
+          <rect x="85" y="318" width="130" height="14" rx="4" fill="#3D4A3E" stroke="#5A6B5C" stroke-width="1.5"/>
+          <path d="M150 320 Q148 260 150 200 Q152 140 148 80" stroke="#4A7A5A" stroke-width="3" stroke-linecap="round"/>
+          <path d="M148 160 Q90 120 50 80 Q80 140 130 170 Z" fill="rgba(61,107,79,0.85)" stroke="#5A9A6A" stroke-width="1.5"/>
+          <path d="M148 160 Q90 120 50 80" stroke="#3D6B4F" stroke-width="1" opacity=".5"/>
+          <ellipse cx="95" cy="125" rx="9" ry="5" transform="rotate(-30 95 125)" fill="#1A2B1F"/>
+          <ellipse cx="78" cy="107" rx="7" ry="4" transform="rotate(-20 78 107)" fill="#1A2B1F"/>
+          <path d="M150 140 Q210 95 256 60 Q225 125 165 155 Z" fill="rgba(61,107,79,0.9)" stroke="#5A9A6A" stroke-width="1.5"/>
+          <path d="M150 140 Q210 95 256 60" stroke="#3D6B4F" stroke-width="1" opacity=".5"/>
+          <ellipse cx="208" cy="100" rx="8" ry="4" transform="rotate(25 208 100)" fill="#1A2B1F"/>
+          <path d="M149 200 Q100 175 65 145 Q100 200 140 215 Z" fill="rgba(80,130,95,0.8)" stroke="#6AAA7A" stroke-width="1.5"/>
+          <path d="M150 220 Q195 195 228 165 Q198 218 158 232 Z" fill="rgba(70,120,85,0.82)" stroke="#6AAA7A" stroke-width="1.5"/>
+          <path d="M148 100 Q125 70 108 45 Q132 88 148 108 Z" fill="rgba(100,155,115,0.75)" stroke="#7ABB8A" stroke-width="1"/>
+          <path d="M150 90 Q172 62 188 40 Q168 80 152 105 Z" fill="rgba(95,148,110,0.78)" stroke="#7ABB8A" stroke-width="1"/>
+          <path d="M80 108 Q108 138 138 162" stroke="#6AAA7A" stroke-width=".8" stroke-dasharray="3 3" opacity=".6"/>
+          <path d="M220 96 Q192 122 162 148" stroke="#6AAA7A" stroke-width=".8" stroke-dasharray="3 3" opacity=".6"/>
+          <path d="M149 80 Q152 55 150 30" stroke="#4A7A5A" stroke-width="2" stroke-linecap="round"/>
+          <path d="M150 35 Q162 48 155 65 Q148 72 150 38 Z" fill="rgba(130,185,140,0.7)" stroke="#7ABB8A" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MARQUEE ═══ -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Free 48hr delivery</span>
+    <span>100% peat-free soil</span>
+    <span>Rare aroids &amp; ferns</span>
+    <span>Plastic-free packaging</span>
+    <span>Lifetime care support</span>
+    <span>Grown by small nurseries</span>
+    <span>Free 48hr delivery</span>
+    <span>100% peat-free soil</span>
+    <span>Rare aroids &amp; ferns</span>
+    <span>Plastic-free packaging</span>
+    <span>Lifetime care support</span>
+    <span>Grown by small nurseries</span>
+  </div>
+</div>
+
+<!-- ═══ FEATURES ═══ -->
+<section class="features" id="features">
+  <div class="section-header">
+    <div class="eyebrow">What sets us apart</div>
+    <h2>The Verdana difference</h2>
+    <p>Six commitments behind every single plant we send.</p>
+  </div>
+
+  <div class="feat-grid">
+    <div class="feat-card">
+      <div class="feat-icon icon-moss">🌿</div>
+      <h3>Curated Rarities</h3>
+      <p>Every species is hand-selected by our botanists. No supermarket staples — only uncommon, interesting plants you won't find on the high street.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon icon-terra">📦</div>
+      <h3>Zero-Waste Packaging</h3>
+      <p>Our boxes are FSC-certified, our tissue is seed paper you can plant, and we use zero plastic — including the pots your plants arrive in.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon icon-sage">🌱</div>
+      <h3>Arrive Alive Guarantee</h3>
+      <p>If your plant doesn't arrive in perfect health, we'll send a replacement — free, no questions. We've only had to do this 23 times across 14,000 orders.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon icon-forest">🔬</div>
+      <h3>Expert Care Cards</h3>
+      <p>Every plant ships with a bespoke, illustrated care card specific to that species — light needs, watering rhythm, soil type, and seasonal notes.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon icon-amber">🤝</div>
+      <h3>Grower Partnerships</h3>
+      <p>We work directly with 18 independent nurseries across Europe. No middlemen, fresher plants, and fair pay for the people who grow them.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon icon-rose">💬</div>
+      <h3>Lifetime Plant Support</h3>
+      <p>Bought from us? You have lifetime access to our plant care community and can message our resident botanist any time — even years later.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section class="about" id="about">
+  <div class="about-visual-wrap">
+    <div class="about-img-card">
+      <div class="about-badge">Dispatching daily from Bristol, UK</div>
+      <div class="plant-row">
+        <div class="plant-thumb">🌵</div>
+        <div class="plant-thumb">🪴</div>
+      </div>
+      <div class="plant-row">
+        <div class="plant-thumb">🌿</div>
+        <div class="plant-thumb">🌸</div>
+      </div>
+      <div class="about-note">
+        <strong>This week's arrival:</strong> Philodendron gloriosum, Monstera standleyana,
+        Hoya kerrii 'Splash', Calathea orbifolia — and 14 more new species just landed.
+      </div>
+    </div>
+  </div>
+
+  <div class="about-text">
+    <div class="eyebrow">Our story</div>
+    <h2>Plants sold by people who <em>actually</em> grow them</h2>
+    <p>Verdana started in 2019 when our founder Lena — a botanist frustrated with the poor health
+       of mass-market plants — began sourcing rare species directly from growers and posting them to friends.</p>
+    <p>Three years later, those same principles still govern every decision: source ethically,
+       pack carefully, support endlessly.</p>
+    <ul class="about-checklist">
+      <li><span class="check">✓</span>All plants propagated in natural light, never forced</li>
+      <li><span class="check">✓</span>Soil mixes formulated per species, not one-size-fits-all</li>
+      <li><span class="check">✓</span>Packaging design reviewed annually by a sustainability consultant</li>
+      <li><span class="check">✓</span>1% of every order donated to rewilding projects in the UK</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══ TESTIMONIALS ═══ -->
+<section class="testimonials" id="testimonials">
+  <div class="testi-header">
+    <div class="eyebrow">What growers say</div>
+    <h2>Grown with us, loved for years</h2>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"The Monstera standleyana arrived in better shape than specimens I've bought in specialist shops. The care card was genuinely more useful than anything I'd found online."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">🌿</div>
+        <div><div class="testi-name">Priya Mehta</div><div class="testi-loc">London · 14 orders</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"I was sceptical about ordering a plant online. Three years later, that first Hoya is trailing two metres across my studio. I've ordered nine more times."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">🪴</div>
+        <div><div class="testi-name">Tom Adesanya</div><div class="testi-loc">Manchester · 9 orders</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"One of my philodendrons dropped a leaf after delivery. I messaged support, got a response from their actual botanist within an hour, and a replacement arrived two days later."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">🌸</div>
+        <div><div class="testi-name">Clara Svensson</div><div class="testi-loc">Edinburgh · 6 orders</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo footer-logo">
+        <svg class="logo-leaf" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 20C11 20 3 14 3 8C3 4.686 6.686 2 11 2C15.314 2 19 4.686 19 8C19 14 11 20 11 20Z"
+                stroke="#A8C5A0" stroke-width="1.4" fill="rgba(168,197,160,0.12)"/>
+          <path d="M11 20V10M11 10C11 10 7 7 7 4M11 10C11 10 15 7 15 4"
+                stroke="#A8C5A0" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        Verdana
+      </a>
+      <p>Rare plants, plastic-free packaging, and lifetime support — delivered to your door in 48 hours.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Pinterest">📌</a>
+        <a href="#" aria-label="TikTok">🎵</a>
+        <a href="#" aria-label="Twitter">𝕏</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">New arrivals</a></li>
+        <li><a href="#">Aroids</a></li>
+        <li><a href="#">Ferns &amp; fronds</a></li>
+        <li><a href="#">Cacti &amp; succulents</a></li>
+        <li><a href="#">Gift boxes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="#">Plant care library</a></li>
+        <li><a href="#">Community forum</a></li>
+        <li><a href="#">Journal</a></li>
+        <li><a href="#">Ask a botanist</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">Our story</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Grower partners</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Verdana Plants Ltd. Registered in England &amp; Wales.</p>
+    <p><a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Cookies</a></p>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks   = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+  // Scroll fade-in
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.feat-card, .testi-card, .about-img-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(22px)';
+    el.style.transition = 'opacity .5s ease, transform .5s ease';
+    io.observe(el);
+  });
+</script>
+</body>
+</html>
